@@ -2,7 +2,7 @@ let heroi = ["Goku", 5500]
 
 
 //testando condições do vetor para definir o nível do herói.
-//como o desafio não define o nível entre 5001 e 6000, incluiram-se esses valores no nível Ouro.
+//como o desafio não define o nível entre 5001 e 6000, incluí esses valores no nível Ouro.
 
 if (heroi[1] <= 1000) {
     console.log("O herói de nome " + heroi[0] + " está no nível Ferro!")
