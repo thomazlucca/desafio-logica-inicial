@@ -1,4 +1,4 @@
-let heroi = ["Goku", 3542]
+let heroi = ["Goku", 5500]
 
 
 //testando condições do vetor para definir o nível do herói.
@@ -20,4 +20,6 @@ if (heroi[1] <= 1000) {
     console.log("O herói de nome " + heroi[0] + " está no nível Imortal!")
 } else if (heroi[1] > 10000) {
     console.log("O herói de nome " + heroi[0] + " está no nível Radiante!")
-} 
+} else {
+    console.log("O herói de nome " + heroi[0] + " não possui classificação de nível!")
+}
